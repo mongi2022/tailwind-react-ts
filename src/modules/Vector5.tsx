@@ -3,7 +3,7 @@ import React from "react";
 const Vector = () => {
   return (
     <svg
-      className="absolute top-[796px] left-[1390px]"
+      className="absolute top-[456px] left-[342px]"
       width={16}
       height={30}
       viewBox="0 0 16 30"
@@ -11,7 +11,7 @@ const Vector = () => {
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        d="M0.999999 29L15 15L1 1"
+        d="M15 1L1 15L15 29"
         stroke="#585757"
         strokeWidth={2}
         strokeLinecap="round"

@@ -3,7 +3,7 @@ import React from "react";
 const IconViewGrid = () => {
   return (
     <svg
-      className="w-[19px] h-[19px]"
+      className="w-[19px] h-[19px] top-[200px] left-[1310px] absolute"
       width={21}
       height={21}
       viewBox="0 0 21 21"

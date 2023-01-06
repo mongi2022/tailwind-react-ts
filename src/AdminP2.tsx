@@ -61,7 +61,7 @@ const AdminP2 = (props: Props) => {
           boxShadow: "0px 4px 6px 0 rgba(0,0,0,0.3)",
         }}
       />
-      <p className="whitespace-pre-wrap absolute top-[277px] left-[45px] font-['Poppins'] text-base leading-[normal] tracking-[0.03em] font-bold italic text-left text-white">
+      <p className="whitespace-pre-wrap absolute top-[277px] left-[45px] font-['Poppins'] text-base leading-[normal] tracking-[0.03em] italic text-left text-white">
         Initiation Numérologie
       </p>
       <p className="whitespace-pre-wrap absolute top-[316px] left-[45px] font-['Poppins'] text-base leading-[normal] tracking-[0.03em] italic text-left text-white">

@@ -78,8 +78,6 @@ const AddUser2 = (props: Props) => {
       <p className="whitespace-pre-wrap absolute top-[793px] left-[107px] font-['Poppins'] text-xxl leading-[normal] tracking-wider text-left text-[#ffffff]">
         Blog personnel
       </p>
-      <IconMenu />
-      <IconViewGrid />
       <div
         className="w-[992px] h-[318px] absolute top-[248px] left-96 rounded-3xl bg-white/[0.65]"
         style={{

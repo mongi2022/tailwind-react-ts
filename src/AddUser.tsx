@@ -22,6 +22,7 @@ import IconTrash2 from "./modules/IconTrash2";
 import Group12 from "./modules/Group12";
 import Group11 from "./modules/Group11";
 import IconCancel from "./modules/IconCancel";
+import IconTrash3 from "./modules/IconTrash3";
 interface Props {}
 
 const AddUser  = (props: Props) => {
@@ -78,8 +79,6 @@ const AddUser  = (props: Props) => {
       <p className="whitespace-pre-wrap absolute top-[793px] left-[107px] font-['Poppins'] text-xxl leading-[normal] tracking-wider text-left text-[#ffffff]">
       Blog personnel
       </p>
-      <IconMenu />
-      <IconViewGrid />
       <div
         className="w-[992px] h-[318px] absolute top-[248px] left-96 rounded-3xl bg-white/[0.65]"
         style={{
@@ -120,9 +119,8 @@ const AddUser  = (props: Props) => {
       <Line12 />
       <IconTrash />
       <IconTrash1 />
-      <IconTrash1 />
       <IconTrash2 />
-      <IconTrash1 />
+      <IconTrash3 />
       <Group12 />
       <Group11 />
       <div className="w-[1440px] h-[1024px] absolute top-0 left-0 bg-black/[0.42]" />

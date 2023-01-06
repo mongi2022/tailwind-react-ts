@@ -3,7 +3,7 @@ import React from "react";
 const IconCancel = () => {
   return (
     <svg
-      className="w-3.5 h-3.5"
+      className="w-[14px] h-[14px] top-[282px] left-[1006px] absolute"
       width={16}
       height={16}
       viewBox="0 0 16 16"

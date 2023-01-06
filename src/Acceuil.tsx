@@ -1,6 +1,4 @@
-import MaskGroup from "./modules/MaskGroup";
 import Rectangle73 from "./modules/Rectangle73";
-import Group9 from "./modules/Group9";
 import IconHome from "./modules/IconHome";
 import IconSearch from "./modules/IconSearch";
 import Line1 from "./modules/Line1";
@@ -23,14 +21,12 @@ import unsplashZvKx6IxUhWq from "./assets/unsplashZvKx6IxUhWq.jpeg";
 import unsplashHh4WbgNyltc from "./assets/unsplashHh4WbgNyltc.jpeg";
 import unsplashS3NUOqDmUvc from "./assets/unsplashS3NUOqDmUvc.jpeg";
 import unsplashUhdlN7U87NA from "./assets/unsplashUhdlN7U87NA.jpeg";
-import Group11 from "./modules/Group11";
-import Group12 from "./modules/Group12";
 import Group102 from "./modules/Group10-2";
 
 function Acceuil() {
   return (
     <div
-      className="box-border block w-[1445px] h-[1024px] relative overflow-hidden rounded-sm bg-[#f3f3f3]"
+      className="box-border block w-[1520px] h-[1024px] relative overflow-hidden rounded-sm bg-[#f3f3f3]"
       style={{
         boxShadow: "0px 4px 4px 0 rgba(0,0,0,0.25)",
       }}
@@ -147,7 +143,7 @@ function Acceuil() {
       <Vector1 />
       <Vector2 />
       <Line3 />
-      <p className="whitespace-pre-wrap absolute top-[793px] left-[107px] font-['Poppins'] text-xxl leading-[normal] tracking-wider text-left text-[#fdfdfd]">
+      <p className="whitespace-pre-wrap absolute top-[793px] left-[107px] font-['Poppins'] text-xxl leading-[normal] tracking-wider text-left text-[#ffffff]">
         Blog personnel
       </p>
       <IconMenu />

@@ -1,4 +1,3 @@
-
 import React from "react";
 import IconHome from "./modules/IconHome";
 import IconSearch from "./modules/IconSearch";
@@ -56,7 +55,7 @@ const AddBook = (props: Props) => {
       }}
     >
       <div
-        className="w-[312px] h-[1024px] absolute top-0 left-0 rounded-tr-[57px] bg-[#897647]"
+        className="w-[312px] h-[1024px] absolute top-0 left-0 rounded-tr-[57px] bg-[#81807e]"
         style={{
           boxShadow: "0px 4px 6px 0 rgba(0,0,0,0.3)",
         }}
@@ -74,7 +73,7 @@ const AddBook = (props: Props) => {
         Initiation Astrologie
       </p>
       <div className="w-[304px] h-[52px] absolute top-[197px] left-4 rounded-tl-[25px] rounded-bl-[25px] bg-[#f3f3f3]" />
-      <div className="w-[226px] h-[46px] absolute top-[782px] left-[46px] rounded-[40px] bg-[#e5d16f]" />
+      <div className="w-[226px] h-[46px] absolute top-[782px] left-[46px] rounded-[40px] bg-[#774f3989]" />
       <p className="whitespace-pre-wrap absolute top-[38px] left-[93px] font-['MonteCarlo'] text-4xl leading-[normal] text-left text-white">
         Bibliothèque
       </p>
@@ -109,8 +108,8 @@ const AddBook = (props: Props) => {
       <Vector2 />
       <Vector3 />
       <Line3 />
-      <p className="whitespace-pre-wrap absolute top-[790px] left-[137px] font-['Poppins'] text-xl leading-[normal] tracking-wider text-left text-[#897647]">
-        Quiz
+      <p className="whitespace-pre-wrap absolute top-[793px] left-[107px] font-['Poppins'] text-xxl leading-[normal] tracking-wider text-left text-[#ffffff]">
+        Blog personnel
       </p>
       <IconMenu />
       <IconViewGrid />
@@ -279,58 +278,72 @@ const AddBook = (props: Props) => {
       <img
         className="w-[29px] h-[34px] absolute top-[322px] left-[432px] object-cover"
         src={rectangle52}
+        alt="img"
       />
       <img
         className="w-[29px] h-[34px] absolute top-[372px] left-[432px] object-cover"
         src={rectangle53}
+        alt="img"
       />
       <img
         className="w-[29px] h-[34px] absolute top-[420px] left-[432px] object-cover"
         src={rectangle54}
+        alt="img"
       />
       <img
         className="w-[29px] h-[34px] absolute top-[470px] left-[432px] object-cover"
         src={rectangle55}
+        alt="img"
       />
       <img
         className="w-[29px] h-[34px] absolute top-[520px] left-[432px] object-cover"
         src={rectangle56}
+        alt="img"
       />
       <img
         className="w-[29px] h-[34px] absolute top-[568px] left-[432px] object-cover"
         src={rectangle57}
+        alt="img"
       />
       <img
         className="w-[29px] h-[34px] absolute top-[621px] left-[432px] object-cover"
         src={rectangle58}
+        alt="img"
       />
       <img
         className="w-[29px] h-[34px] absolute top-[672px] left-[432px] object-cover"
         src={rectangle59}
+        alt="img"
       />
       <img
         className="w-[29px] h-[34px] absolute top-[720px] left-[432px] object-cover"
         src={rectangle60}
+        alt="img"
       />
       <img
         className="w-[29px] h-[34px] absolute top-[769px] left-[432px] object-cover"
         src={rectangle61}
+        alt="img"
       />
       <img
         className="w-[29px] h-[34px] absolute top-[818px] left-[432px] object-cover"
         src={rectangle62}
+        alt="img"
       />
       <img
         className="w-[29px] h-[34px] absolute top-[869px] left-[432px] object-cover"
         src={rectangle63}
+        alt="img"
       />
       <img
         className="w-[29px] h-[34px] absolute top-[916px] left-[432px] object-cover"
         src={rectangle64}
+        alt="img"
       />
       <img
         className="w-[29px] h-7 absolute top-[965px] left-[432px] object-cover"
         src={rectangle65}
+        alt="img"
       />
       <IconProfileCircled />
       <Group12 />
@@ -343,7 +356,7 @@ const AddBook = (props: Props) => {
         }}
       />
       <div
-        className="w-44 h-[46px] absolute top-[840px] left-[843px] rounded-[20px] bg-[#897647]"
+        className="w-44 h-[46px] absolute top-[840px] left-[843px] rounded-[20px] bg-[#c2c1c1]"
         style={{
           boxShadow: "0px 4px 4px 0 rgba(0,0,0,0.25)",
         }}
@@ -362,78 +375,36 @@ const AddBook = (props: Props) => {
       <IconNavArrowLeft />
       <div className="w-[478px] h-14 absolute top-[655px] left-[544px] rounded-[13px] bg-[#d9d9d9] border border-[#969595]" />
       <div className="w-[478px] h-14 absolute top-[730px] left-[544px] rounded-[13px] bg-[#d9d9d9] border border-[#969595]" />
-      <p className="whitespace-pre-wrap absolute top-[851px] left-[698px] font-['Poppins'] text-base leading-[normal] tracking-[0.03em] text-left text-[#585757]">
-        <span className="whitespace-pre-wrap font-['Poppins'] text-base leading-[normal] tracking-[0.03em] text-left capitalize text-[#585757]">
-          A
-        </span>
-        <span className="whitespace-pre-wrap font-['Poppins'] text-base leading-[normal] tracking-[0.03em] text-left lowercase text-[#585757]">
-          N
-        </span>
-        <span className="whitespace-pre-wrap font-['Poppins'] text-base leading-[normal] tracking-[0.03em] text-left lowercase text-[#585757]">
-          N
-        </span>
-        <span className="whitespace-pre-wrap font-['Poppins'] text-base leading-[normal] tracking-[0.03em] text-left lowercase text-[#585757]">
-          U
-        </span>
-        <span className="whitespace-pre-wrap font-['Poppins'] text-base leading-[normal] tracking-[0.03em] text-left lowercase text-[#585757]">
-          L
-        </span>
-        <span className="whitespace-pre-wrap font-['Poppins'] text-base leading-[normal] tracking-[0.03em] text-left lowercase text-[#585757]">
-          E
-        </span>
-        <span className="whitespace-pre-wrap font-['Poppins'] text-base leading-[normal] tracking-[0.03em] text-left lowercase text-[#585757]">
-          R
+      <p className="whitespace-pre-wrap absolute top-[851px] left-[698px] font-['Poppins'] text-base leading-[normal] tracking-[0.03em] text-left text-[#ffffff]">
+        <span className="whitespace-pre-wrap font-['Poppins'] text-base leading-[normal] tracking-[0.03em] text-left capitalize text-[#ffffff]">
+          Annuler
         </span>
       </p>
       <p className="whitespace-pre-wrap absolute top-[851px] left-[888px] font-['Poppins'] text-base leading-[normal] tracking-[0.03em] text-left text-white">
-        <span className="whitespace-pre-wrap font-['Poppins'] text-base leading-[normal] tracking-[0.03em] text-left uppercase text-white">
-          C
-        </span>
-        <span className="whitespace-pre-wrap font-['Poppins'] text-base leading-[normal] tracking-[0.03em] text-left lowercase text-white">
-          O
-        </span>
-        <span className="whitespace-pre-wrap font-['Poppins'] text-base leading-[normal] tracking-[0.03em] text-left lowercase text-white">
-          N
-        </span>
-        <span className="whitespace-pre-wrap font-['Poppins'] text-base leading-[normal] tracking-[0.03em] text-left lowercase text-white">
-          F
-        </span>
-        <span className="whitespace-pre-wrap font-['Poppins'] text-base leading-[normal] tracking-[0.03em] text-left lowercase text-white">
-          I
-        </span>
-        <span className="whitespace-pre-wrap font-['Poppins'] text-base leading-[normal] tracking-[0.03em] text-left lowercase text-white">
-          R
-        </span>
-        <span className="whitespace-pre-wrap font-['Poppins'] text-base leading-[normal] tracking-[0.03em] text-left lowercase text-white">
-          M
-        </span>
-        <span className="whitespace-pre-wrap font-['Poppins'] text-base leading-[normal] tracking-[0.03em] text-left lowercase text-white">
-          E
-        </span>
-        <span className="whitespace-pre-wrap font-['Poppins'] text-base leading-[normal] tracking-[0.03em] text-left lowercase text-white">
-          R
+        <span className="whitespace-pre-wrap font-['Poppins'] text-base leading-[normal] tracking-[0.03em] text-left  text-white">
+          Confirmer
         </span>
       </p>
-      <div className="w-[557px] h-[68px] absolute top-[257px] left-[505px] rounded-tl-[22px] rounded-tr-[22px] bg-[#d6c481]" />
-      <p className="whitespace-pre-wrap absolute top-[279px] left-[548px] font-['Poppins'] text-base leading-[normal] tracking-[0.03em] text-left capitalize text-[#897647]">
+      <div className="w-[557px] h-[68px] absolute top-[257px] left-[505px] rounded-tl-[22px] rounded-tr-[22px] bg-[#b6b6b6]" />
+      <p className="whitespace-pre-wrap absolute top-[279px] left-[548px] font-['Poppins'] text-base leading-[normal] tracking-[0.03em] text-left capitalize text-[#ffffff]">
         ajouter un livre
       </p>
-      <p className="whitespace-pre-wrap absolute top-[371px] left-[563px] font-['Poppins'] text-base leading-[normal] tracking-[0.03em] italic text-left capitalize text-[#969595]">
+      <p className="whitespace-pre-wrap absolute top-[371px] left-[563px] font-['Poppins'] text-base leading-[normal] tracking-[0.03em] italic text-left capitalize text-[#ffffff]">
         Titre
       </p>
-      <p className="whitespace-pre-wrap absolute top-[521px] left-[563px] font-['Poppins'] text-base leading-[normal] tracking-[0.03em] italic text-left capitalize text-black">
+      <p className="whitespace-pre-wrap absolute top-[521px] left-[563px] font-['Poppins'] text-base leading-[normal] tracking-[0.03em] italic text-left capitalize text-[#ffffff]">
         Langue
       </p>
-      <p className="whitespace-pre-wrap absolute top-[447px] left-[563px] font-['Poppins'] text-base leading-[normal] tracking-[0.03em] italic text-left capitalize text-[#969595]">
+      <p className="whitespace-pre-wrap absolute top-[447px] left-[563px] font-['Poppins'] text-base leading-[normal] tracking-[0.03em] italic text-left  text-[#ffffff]">
         Nom d’auteur
       </p>
-      <p className="whitespace-pre-wrap absolute top-[597px] left-[563px] font-['Poppins'] text-base leading-[normal] tracking-[0.03em] italic text-left capitalize text-black">
+      <p className="whitespace-pre-wrap absolute top-[597px] left-[563px] font-['Poppins'] text-base leading-[normal] tracking-[0.03em] italic text-left capitalize text-[#ffffff]">
         thème
       </p>
-      <p className="whitespace-pre-wrap absolute top-[672px] left-[563px] w-[168px] h-6 font-['Poppins'] text-base leading-[normal] tracking-[0.03em] italic text-left capitalize text-black">
+      <p className="whitespace-pre-wrap absolute top-[672px] left-[563px] w-[168px] h-6 font-['Poppins'] text-base leading-[normal] tracking-[0.03em] italic text-left capitalize text-[#ffffff]">
         importer une image
       </p>
-      <p className="whitespace-pre-wrap absolute top-[747px] left-[563px] font-['Poppins'] text-base leading-[normal] tracking-[0.03em] italic text-left capitalize text-black">
+      <p className="whitespace-pre-wrap absolute top-[747px] left-[563px] font-['Poppins'] text-base leading-[normal] tracking-[0.03em] italic text-left capitalize text-[#ffffff]">
         importer un pdf
       </p>
       <IconCancel />

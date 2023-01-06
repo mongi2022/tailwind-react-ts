@@ -3,7 +3,7 @@ import React from "react";
 const IconNavArrowLeft = () => {
   return (
     <svg
-      className="w-1.5 h-3"
+      className="w-[7.22px] h-[12.63px] top[206px] left[395px] absolute"
       width={14}
       height={8}
       viewBox="0 0 14 8"

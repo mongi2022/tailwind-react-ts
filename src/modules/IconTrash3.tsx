@@ -1,9 +1,9 @@
 import React from "react";
 
-const IconTrash = () => {
+const IconTrash3 = () => {
   return (
     <svg
-      className="w-[18px] h-[18px] top-[426px] left-[1301px] absolute"
+      className="w-[18px] h-[18px] top-[474px] left-[1301px] absolute"
       width={20}
       height={20}
       viewBox="0 0 20 20"
@@ -38,4 +38,4 @@ const IconTrash = () => {
   );
 };
 
-export default IconTrash;
+export default IconTrash3;

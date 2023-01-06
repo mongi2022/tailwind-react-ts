@@ -21,6 +21,7 @@ import IconTrash1 from "./modules/IconTrash1";
 import IconTrash2 from "./modules/IconTrash2";
 import Group12 from "./modules/Group12";
 import Group11 from "./modules/Group11";
+import IconTrash3 from "./modules/IconTrash3";
 interface Props {}
 
 const AddUser2 = (props: Props) => {
@@ -33,13 +34,13 @@ const AddUser2 = (props: Props) => {
     >
       <div className="w-[312px] h-[1024px]">
         <div
-          className="w-[312px] h-[1024px] absolute top-0 left-0 rounded-tr-[57px] bg-[#897647]"
+          className="w-[312px] h-[1024px] absolute top-0 left-0 rounded-tr-[57px] bg-[#81807e]"
           style={{
             boxShadow: "0px 4px 6px 0 rgba(0,0,0,0.3)",
           }}
         />
       </div>
-      <div className="w-[226px] h-[46px] absolute top-[782px] left-[46px] rounded-[40px] bg-[#e5d16f]" />
+      <div className="w-[226px] h-[46px] absolute top-[782px] left-[46px] rounded-[40px] bg-[#774f3989]" />
       <p className="whitespace-pre-wrap absolute top-[38px] left-[93px] font-['MonteCarlo'] text-4xl leading-[normal] text-left text-white">
         Bibliothèque
       </p>
@@ -73,10 +74,9 @@ const AddUser2 = (props: Props) => {
       <Vector />
       <Vector1 />
       <Vector2 />
-      <Vector3 />
       <Line3 />
-      <p className="whitespace-pre-wrap absolute top-[790px] left-[137px] font-['Poppins'] text-xl leading-[normal] tracking-wider text-left text-[#897647]">
-        Quiz
+      <p className="whitespace-pre-wrap absolute top-[793px] left-[107px] font-['Poppins'] text-xxl leading-[normal] tracking-wider text-left text-[#ffffff]">
+        Blog personnel
       </p>
       <IconMenu />
       <IconViewGrid />
@@ -94,9 +94,6 @@ const AddUser2 = (props: Props) => {
       </p>
       <p className="whitespace-pre-wrap absolute top-[474px] left-[446px] font-['Poppins'] text-sm leading-[normal] tracking-[0.03em] font-medium text-left capitalize text-black">
         Dubois antoine
-      </p>
-      <p className="whitespace-pre-wrap absolute top-[526px] left-[446px] font-['Poppins'] text-sm leading-[normal] tracking-[0.03em] font-medium text-left capitalize text-black">
-        Dagobert david
       </p>
       <p className="whitespace-pre-wrap absolute top-[426px] left-[447px] font-['Poppins'] text-sm leading-[normal] tracking-[0.03em] font-medium text-left capitalize text-black">
         Robert christophe
@@ -120,9 +117,8 @@ const AddUser2 = (props: Props) => {
       <Line12 />
       <IconTrash />
       <IconTrash1 />
-      <IconTrash1 />
       <IconTrash2 />
-      <IconTrash1 />
+      <IconTrash3 />
       <Group12 />
       <Group11 />
     </div>

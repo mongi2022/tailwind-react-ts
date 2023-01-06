@@ -31,7 +31,7 @@ import rectangle9 from "./assets/rectangle9.jpeg";
 import rectangle14 from "./assets/rectangle14.jpeg";
 interface Props {}
 
-const AdminPage  = (props: Props) => {
+const AdminPage = (props: Props) => {
   return (
     <div
       className="box-border block w-[1440px] h-[1024px] relative overflow-hidden rounded-sm bg-[#f3f3f3]"
@@ -41,13 +41,13 @@ const AdminPage  = (props: Props) => {
     >
       <div className="w-[312px] h-[1024px]">
         <div
-          className="w-[312px] h-[1024px] absolute top-0 left-0 rounded-tr-[57px] bg-[#897647]"
+          className="w-[312px] h-[1024px] absolute top-0 left-0 rounded-tr-[57px] bg-[#81807e]"
           style={{
             boxShadow: "0px 4px 6px 0 rgba(0,0,0,0.3)",
           }}
         />
       </div>
-      <div className="w-[226px] h-[46px] absolute top-[782px] left-[46px] rounded-[40px] bg-[#e5d16f]" />
+      <div className="w-[226px] h-[46px] absolute top-[782px] left-[46px] rounded-[40px] bg-[#774f3989]" />
       <p className="whitespace-pre-wrap absolute top-[38px] left-[93px] font-['MonteCarlo'] text-4xl leading-[normal] text-left text-white">
         Bibliothèque
       </p>
@@ -83,8 +83,8 @@ const AdminPage  = (props: Props) => {
       <Vector2 />
       <Vector3 />
       <Line3 />
-      <p className="whitespace-pre-wrap absolute top-[790px] left-[137px] font-['Poppins'] text-xl leading-[normal] tracking-wider text-left text-[#897647]">
-        Quiz
+      <p className="whitespace-pre-wrap absolute top-[793px] left-[107px] font-['Poppins'] text-xxl leading-[normal] tracking-wider text-left text-[#ffffff]">
+        Blog personnel
       </p>
       <IconMenu />
       <IconViewGrid />
@@ -146,6 +146,7 @@ const AdminPage  = (props: Props) => {
           boxShadow: "0px 4px 4px 0 rgba(0,0,0,0.25)",
         }}
         src={rectangle5}
+        alt="livre1"
       />
       <img
         className="w-[164px] h-[220px] absolute top-[632px] left-[389px] object-cover"
@@ -153,6 +154,7 @@ const AdminPage  = (props: Props) => {
           boxShadow: "0px 4px 4px 0 rgba(0,0,0,0.25)",
         }}
         src={rectangle10}
+        alt="livre5"
       />
       <img
         className="w-[164px] h-[220px] absolute top-[279px] left-[625px] object-cover"
@@ -160,6 +162,7 @@ const AdminPage  = (props: Props) => {
           boxShadow: "0px 4px 4px 0 rgba(0,0,0,0.25)",
         }}
         src={rectangle6}
+        alt="livre2"
       />
       <img
         className="w-[164px] h-[220px] absolute top-[632px] left-[627px] object-cover"
@@ -167,6 +170,7 @@ const AdminPage  = (props: Props) => {
           boxShadow: "0px 4px 4px 0 rgba(0,0,0,0.25)",
         }}
         src={rectangle11}
+        alt="livre6"
       />
       <img
         className="w-[164px] h-[220px] absolute top-[279px] left-[867px] object-cover"
@@ -174,6 +178,7 @@ const AdminPage  = (props: Props) => {
           boxShadow: "0px 4px 4px 0 rgba(0,0,0,0.25)",
         }}
         src={rectangle7}
+        alt="livre3"
       />
       <img
         className="w-[164px] h-[220px] absolute top-[632px] left-[867px] object-cover"
@@ -181,6 +186,7 @@ const AdminPage  = (props: Props) => {
           boxShadow: "0px 4px 4px 0 rgba(0,0,0,0.25)",
         }}
         src={rectangle12}
+        alt="livre7"
       />
       <img
         className="w-[164px] h-[220px] absolute top-[279px] left-[1108px] object-cover"
@@ -188,6 +194,7 @@ const AdminPage  = (props: Props) => {
           boxShadow: "0px 4px 4px 0 rgba(0,0,0,0.25)",
         }}
         src={rectangle9}
+        alt="livre4"
       />
       <img
         className="w-[164px] h-[220px] absolute top-[632px] left-[1108px] object-cover"
@@ -195,6 +202,7 @@ const AdminPage  = (props: Props) => {
           boxShadow: "0px 4px 4px 0 rgba(0,0,0,0.25)",
         }}
         src={rectangle14}
+        alt="livre8"
       />
       <Group12 />
       <Group11 />
@@ -202,4 +210,4 @@ const AdminPage  = (props: Props) => {
   );
 };
 
-export default AdminPage ;
+export default AdminPage;

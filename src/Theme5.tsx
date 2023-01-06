@@ -51,7 +51,7 @@ const Theme5  = (props: Props) => {
       }}
     >
       <div
-        className="w-[312px] h-[1024px] absolute top-0 left-0 rounded-tr-[57px] bg-[#897647]"
+        className="w-[312px] h-[1024px] absolute top-0 left-0 rounded-tr-[57px] bg-[#81807e]"
         style={{
           boxShadow: "0px 4px 6px 0 rgba(0,0,0,0.3)",
         }}
@@ -69,7 +69,7 @@ const Theme5  = (props: Props) => {
         Initiation Astrologie
       </p>
       <div className="w-[304px] h-[52px] absolute top-[197px] left-4 rounded-tl-[25px] rounded-bl-[25px] bg-[#f3f3f3]" />
-      <div className="w-[226px] h-[46px] absolute top-[782px] left-[46px] rounded-[40px] bg-[#e5d16f]" />
+      <div className="w-[226px] h-[46px] absolute top-[782px] left-[46px] rounded-[40px] bg-[#774f3989]" />
       <p className="whitespace-pre-wrap absolute top-[38px] left-[93px] font-['MonteCarlo'] text-4xl leading-[normal] text-left text-white">
         Bibliothèque
       </p>
@@ -105,8 +105,8 @@ const Theme5  = (props: Props) => {
       <Vector2 />
       <Vector3 />
       <Line3 />
-      <p className="whitespace-pre-wrap absolute top-[790px] left-[137px] font-['Poppins'] text-xl leading-[normal] tracking-wider text-left text-[#897647]">
-        Quiz
+      <p className="whitespace-pre-wrap absolute top-[793px] left-[107px] font-['Poppins'] text-xxl leading-[normal] tracking-wider text-left text-[#ffffff]">
+      Blog personnel
       </p>
       <IconMenu />
       <IconViewGrid />
@@ -275,58 +275,72 @@ const Theme5  = (props: Props) => {
       <img
         className="w-[29px] h-[34px] absolute top-[322px] left-[432px] object-cover"
         src={rectangle52}
+        alt="livre1"
       />
       <img
         className="w-[29px] h-[34px] absolute top-[372px] left-[432px] object-cover"
         src={rectangle53}
+        alt="livre2"
       />
       <img
         className="w-[29px] h-[34px] absolute top-[420px] left-[432px] object-cover"
         src={rectangle54}
+        alt="livre3"
       />
       <img
         className="w-[29px] h-[34px] absolute top-[470px] left-[432px] object-cover"
         src={rectangle55}
+        alt="livre4"
       />
       <img
         className="w-[29px] h-[34px] absolute top-[520px] left-[432px] object-cover"
         src={rectangle56}
+        alt="livre5"
       />
       <img
         className="w-[29px] h-[34px] absolute top-[568px] left-[432px] object-cover"
         src={rectangle57}
+        alt="livre6"
       />
       <img
         className="w-[29px] h-[34px] absolute top-[621px] left-[432px] object-cover"
         src={rectangle58}
+        alt="livre7"
       />
       <img
         className="w-[29px] h-[34px] absolute top-[672px] left-[432px] object-cover"
         src={rectangle59}
+        alt="livre8"
       />
       <img
         className="w-[29px] h-[34px] absolute top-[720px] left-[432px] object-cover"
         src={rectangle60}
+        alt="livre9"
       />
       <img
         className="w-[29px] h-[34px] absolute top-[769px] left-[432px] object-cover"
         src={rectangle61}
+        alt="livre10"
       />
       <img
         className="w-[29px] h-[34px] absolute top-[818px] left-[432px] object-cover"
         src={rectangle62}
+        alt="livre11"
       />
       <img
         className="w-[29px] h-[34px] absolute top-[869px] left-[432px] object-cover"
         src={rectangle63}
+        alt="livre12"
       />
       <img
         className="w-[29px] h-[34px] absolute top-[916px] left-[432px] object-cover"
         src={rectangle64}
+        alt="livre13"
       />
       <img
         className="w-[29px] h-7 absolute top-[965px] left-[432px] object-cover"
         src={rectangle65}
+        alt="livre14"
       />
     </div>
   );

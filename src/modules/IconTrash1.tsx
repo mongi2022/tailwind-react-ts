@@ -3,7 +3,7 @@ import React from "react";
 const IconTrash = () => {
   return (
     <svg
-      className="w-[18px] h-[18px]"
+      className="w-[18px] h-[18px] top-[376px] left-[1301px] absolute"
       width={20}
       height={20}
       viewBox="0 0 20 20"
@@ -16,8 +16,18 @@ const IconTrash = () => {
         strokeLinecap="round"
         strokeLinejoin="round"
       />
-      <path d="M8 15V9.00003" stroke="#585757" strokeLinecap="round" strokeLinejoin="round" />
-      <path d="M12 15V9.00003" stroke="#585757" strokeLinecap="round" strokeLinejoin="round" />
+      <path
+        d="M8 15V9.00003"
+        stroke="#585757"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M12 15V9.00003"
+        stroke="#585757"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
       <path
         d="M19 5H14M1 5H6M6 5V1.6C6 1.26863 6.26863 1 6.6 1H13.4C13.7314 1 14 1.26863 14 1.6V5M6 5H14"
         stroke="#585757"

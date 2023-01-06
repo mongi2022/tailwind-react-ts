@@ -3,7 +3,7 @@ import React from "react";
 const Group11 = () => {
   return (
     <svg
-      className="w-8 h-8"
+      className="w-[32px] h-[32px] top-[48px] left-[1209px] absolute"
       width={32}
       height={32}
       viewBox="0 0 32 32"
@@ -24,8 +24,18 @@ const Group11 = () => {
         strokeWidth={2}
         strokeLinecap="round"
       />
-      <path d="M9.28699 19.0093H18.2963" stroke="#897647" strokeWidth={2} strokeLinecap="round" />
-      <path d="M9.28699 21.5835H18.2963" stroke="#897647" strokeWidth={2} strokeLinecap="round" />
+      <path
+        d="M9.28699 19.0093H18.2963"
+        stroke="#897647"
+        strokeWidth={2}
+        strokeLinecap="round"
+      />
+      <path
+        d="M9.28699 21.5835H18.2963"
+        stroke="#897647"
+        strokeWidth={2}
+        strokeLinecap="round"
+      />
       <path
         d="M9.28705 21.5834C8.57623 21.5834 8 21.0072 8 20.2964C8 19.5855 8.57623 19.0093 9.28705 19.0093"
         stroke="#897647"
@@ -33,7 +43,12 @@ const Group11 = () => {
         strokeLinecap="round"
         strokeLinejoin="round"
       />
-      <path d="M11.2175 12.5741H15.0787" stroke="#897647" strokeWidth={2} strokeLinecap="round" />
+      <path
+        d="M11.2175 12.5741H15.0787"
+        stroke="#897647"
+        strokeWidth={2}
+        strokeLinecap="round"
+      />
     </svg>
   );
 };

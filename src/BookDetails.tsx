@@ -7,10 +7,7 @@ import IconProfileCircled from "./modules/IconProfileCircled";
 import Vector from "./modules/Vector";
 import Vector1 from "./modules/Vector1";
 import Vector2 from "./modules/Vector2";
-import Vector3 from "./modules/Vector3";
 import Line3 from "./modules/Line3";
-import IconMenu from "./modules/IconMenu";
-import IconViewGrid from "./modules/IconViewGrid";
 import Ellipse2 from "./modules/Ellipse2";
 import IconNavArrowLeft from "./modules/IconNavArrowLeft";
 import Ellipse1 from "./modules/Ellipse1";
@@ -44,7 +41,7 @@ const BookDetails = (props: Props) => {
         Initiation Astrologie
       </p>
       <div className="w-[304px] h-[52px] absolute top-[197px] left-4 rounded-tl-[25px] rounded-bl-[25px] bg-[#f3f3f3]" />
-      <div className="w-[226px] h-[46px] absolute top-[782px] left-[46px] rounded-[40px] bg-[#253234]" />
+      <div className="w-[226px] h-[46px] absolute top-[782px] left-[46px] rounded-[40px] bg-[#774f3989]" />
       <p className="whitespace-pre-wrap absolute top-[38px] left-[93px] font-['MonteCarlo'] text-4xl leading-[normal] text-left text-white">
         Bibliothèque
       </p>
@@ -78,22 +75,19 @@ const BookDetails = (props: Props) => {
       <Vector />
       <Vector1 />
       <Vector2 />
-      <Vector3 />
       <Line3 />
-      <p className="whitespace-pre-wrap absolute top-[790px] left-[137px] font-['Poppins'] text-xl leading-[normal] tracking-wider text-left text-[#fbfbfb]">
-        Quiz
+      <p className="whitespace-pre-wrap absolute top-[793px] left-[107px] font-['Poppins'] text-xxl leading-[normal] tracking-wider text-left text-[#fbfbfb]">
+      Blog personnel
       </p>
-      <IconMenu />
-      <IconViewGrid />
       <Ellipse2 />
       <div
-        className="w-[187px] h-[42px] absolute top-[586px] left-[764px] rounded-[20px] bg-[#0a6978]"
+        className="w-[187px] h-[42px] absolute top-[586px] left-[764px] rounded-[20px] bg-[#774f39ee]"
         style={{
           boxShadow: "0px 4px 4px 0 rgba(0,0,0,0.25)",
         }}
       />
-      <p className="whitespace-pre-wrap absolute top-[591px] left-[794px] w-[139px] h-[27px] font-['Poppins'] text-xl leading-[normal] tracking-wider text-left capitalize text-white">
-        lire le livre
+      <p className="whitespace-pre-wrap absolute top-[594px] left-[794px] w-[139px] h-[27px] font-['Poppins'] text-xl leading-[normal] tracking-wider text-left text-white">
+        Lire en PDF
       </p>
       <div className="w-[168px] h-[219px] absolute top-[321px] left-[452px] bg-transparent" />
       <img
@@ -102,11 +96,12 @@ const BookDetails = (props: Props) => {
           boxShadow: "0px 4px 5px 0 rgba(0,0,0,0.3)",
         }}
         src={rectangle5}
+        alt="livre"
       />
-      <p className="whitespace-pre-wrap absolute top-[326px] left-[764px] w-[541px] h-8 font-['Poppins'] text-2xl leading-[normal] tracking-[0.03em] font-medium text-left capitalize text-[#0a6978]">
+      <p className="whitespace-pre-wrap absolute top-[326px] left-[764px] w-[541px] h-8 font-['Poppins'] text-2xl leading-[normal] tracking-[0.03em] font-medium text-left capitalize text-[#7d7c7c]">
         numérologie les clés de votre destinée
       </p>
-      <p className="whitespace-pre-wrap absolute top-[360px] left-[764px] w-[343px] h-[33px] font-['Poppins'] text-2xl leading-[normal] tracking-[0.03em] italic text-left capitalize text-[#585757]">
+      <p className="whitespace-pre-wrap absolute top-[360px] left-[764px] w-[343px] h-[33px] font-['Poppins'] text-2xl leading-[normal] tracking-[0.03em] italic text-left capitalize text-[#000000]">
         Nom d’auteur
       </p>
       <p className="whitespace-pre-wrap absolute top-[419px] left-[765px] w-[559px] h-[130px] font-['Poppins'] text-base leading-[normal] tracking-[0.03em] italic text-justify capitalize text-black">

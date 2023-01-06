@@ -6,10 +6,7 @@ import Polygon1 from "./modules/Polygon1";
 import Vector from "./modules/Vector";
 import Vector1 from "./modules/Vector1";
 import Vector2 from "./modules/Vector2";
-import Vector3 from "./modules/Vector3";
 import Line3 from "./modules/Line3";
-import IconMenu from "./modules/IconMenu";
-import IconViewGrid from "./modules/IconViewGrid";
 import IconProfileCircled from "./modules/IconProfileCircled";
 import Group12 from "./modules/Group12";
 import Group11 from "./modules/Group11";
@@ -53,18 +50,18 @@ interface Props {}
 const AdminP2 = (props: Props) => {
   return (
     <div
-      className="box-border block w-[1440px] h-[1024px] relative overflow-hidden rounded-sm bg-[#f3f3f3]"
+      className="box-border block w-[1520px] h-[1024px] relative overflow-hidden rounded-sm bg-[#f3f3f3]"
       style={{
         boxShadow: "0px 4px 4px 0 rgba(0,0,0,0.25)",
       }}
     >
       <div
-        className="w-[312px] h-[1024px] absolute top-0 left-0 rounded-tr-[57px] bg-[#897647]"
+        className="w-[312px] h-[1024px] absolute top-0 left-0 rounded-tr-[57px] bg-[#81807e]"
         style={{
           boxShadow: "0px 4px 6px 0 rgba(0,0,0,0.3)",
         }}
       />
-      <p className="whitespace-pre-wrap absolute top-[277px] left-[45px] font-['Poppins'] text-base leading-[normal] tracking-[0.03em] font-bold italic text-left text-white">
+      <p className="whitespace-pre-wrap absolute top-[277px] left-[45px] font-['Poppins'] text-base leading-[normal] tracking-[0.03em] italic text-left text-white">
         Initiation Numérologie
       </p>
       <p className="whitespace-pre-wrap absolute top-[316px] left-[45px] font-['Poppins'] text-base leading-[normal] tracking-[0.03em] italic text-left text-white">
@@ -77,7 +74,7 @@ const AdminP2 = (props: Props) => {
         Initiation Astrologie
       </p>
       <div className="w-[304px] h-[52px] absolute top-[197px] left-4 rounded-tl-[25px] rounded-bl-[25px] bg-[#f3f3f3]" />
-      <div className="w-[226px] h-[46px] absolute top-[782px] left-[46px] rounded-[40px] bg-[#e5d16f]" />
+      <div className="w-[226px] h-[46px] absolute top-[782px] left-[46px] rounded-[40px] bg-[#774f3989]" />
       <p className="whitespace-pre-wrap absolute top-[38px] left-[93px] font-['MonteCarlo'] text-4xl leading-[normal] text-left text-white">
         Bibliothèque
       </p>
@@ -110,13 +107,10 @@ const AdminP2 = (props: Props) => {
       <Vector />
       <Vector1 />
       <Vector2 />
-      <Vector3 />
       <Line3 />
-      <p className="whitespace-pre-wrap absolute top-[790px] left-[137px] font-['Poppins'] text-xl leading-[normal] tracking-wider text-left text-[#897647]">
-        Quiz
+      <p className="whitespace-pre-wrap absolute top-[793px] left-[107px] font-['Poppins'] text-xxl leading-[normal] tracking-wider text-left text-[#ffffff]">
+        Blog personnel
       </p>
-      <IconMenu />
-      <IconViewGrid />
       <IconProfileCircled />
       <Group12 />
       <Group11 />

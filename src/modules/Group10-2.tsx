@@ -1,9 +1,9 @@
 import React from "react";
 
-const Group10 = () => {
+const Group102 = () => {
   return (
     <svg
-      className="w-[126px] h-[25px] left-[607px] top-[477px] absolute"
+      className="w-[126px] h-[25px] left-[1121px] top-[477px] absolute"
       width={128}
       height={27}
       viewBox="0 0 128 27"
@@ -199,4 +199,4 @@ const Group10 = () => {
   );
 };
 
-export default Group10;
+export default Group102;
